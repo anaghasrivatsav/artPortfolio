@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styles from './LandingPage.module.css';
 import axios from 'axios';
-
+import TopBar from '../components/TopBar';
+import SideBar from '../components/SideBar';
 
 class LandingPage extends Component
 {
@@ -9,8 +10,11 @@ class LandingPage extends Component
     {
         return (
             
-            <div className={styles.topBanner}>
-
+            <div>
+            <TopBar />
+            <SideBar />
+          
+           
             </div>
             
 
